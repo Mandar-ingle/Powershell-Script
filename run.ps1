@@ -13,7 +13,7 @@ if (-not $name) {
 }
 
 $body = "This HTTP triggered function executed successfully. Pass a name in the query string or in the request body for a personalized response."
-$SubscriptionId = '607c28a6-9894-4139-8bd3-0ea1cad2a6e1';
+$SubscriptionId = '607c28a6-9894-4139-8bd3-0ea1cad2a6e2';
 $RecurrencePeriodStart = '2022-01-25T00:00:00Z';
 $RecurrencePeriodEnd = '2022-12-25T00:00:00Z';
 $DestinationStorageAccountId = '/subscriptions/' + $SubscriptionId + '/resourceGroups/rg_ACM/providers/Microsoft.Storage/storageAccounts/stacmdata0002'; 
